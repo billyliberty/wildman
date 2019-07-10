@@ -7,6 +7,8 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 
+# Display home page 
+
   get "/" do
     erb :index
   end
